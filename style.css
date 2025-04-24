@@ -1,7 +1,94 @@
+body{
+    background-color: #d7cccc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1rem 0;
+}
+
+.div-body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 3rem;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.header{    
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 .img-perfil{
-    width: 70px;
+    height: 80px;
+    width: 80px;
+    margin-right: 1rem;
+    border-radius: 5rem;
+    
 }
 
 .icono{
-    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.datos{
+    display: flex;
+    
+}
+
+.datos div{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.fecha{
+    font-size: 0.8rem;
+    color: #888;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-experiencia{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.div-experiencia p{
+    display: flex;
+    align-items: center;
+}
+
+.experiencia{
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.idiomas{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: flex-start;
+}
+
+.idioma{
+    font-size: 0.8rem;
+    color: #888;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1rem;
+    align-items: center;
+    
 }
